@@ -225,7 +225,7 @@ void CreateUIElements(HWND hwnd) {
     SendMessage(hwndCheckbox3, WM_SETFONT, (WPARAM)GetStockObject(DEFAULT_GUI_FONT), TRUE);
 
     // Button
-    hwndButton = CreateWindowEx(0, "BUTTON", "Click Me", WS_TABSTOP | WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
+    hwndButton = CreateWindowEx(0, "BUTTON", "Enable Alt+F5", WS_TABSTOP | WS_VISIBLE | WS_CHILD | BS_DEFPUSHBUTTON,
                                 150, 180, 100, 30, hwnd, (HMENU)ID_BUTTON, (HINSTANCE)GetWindowLongPtr(hwnd, GWLP_HINSTANCE), NULL);
     SendMessage(hwndButton, WM_SETFONT, (WPARAM)GetStockObject(DEFAULT_GUI_FONT), TRUE);
 
