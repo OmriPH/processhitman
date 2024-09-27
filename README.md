@@ -1,4 +1,4 @@
-# Resource Hitman
+# Process Hitman
 Use Alt+F5 to kill any process, more efficiently than Alt+F4
 
 *Have you ever been in a situation where an application stops responding, gets stuck in a loading screen, or is just annoying. You immediately press Alt+F4, but the application doesn't shut down?*
