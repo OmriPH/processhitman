@@ -1,7 +1,5 @@
 OUTPUT="hitmanLinux"
 SOURCE="hitmanLinux.cpp"
-USER_HOME=$(getent passwd "$SUDO_USER" | cut -d: -f6)
-CONFIG_DIR="$USER_HOME/.config/hitmanLinux"
 
 REQUIRED_PACKAGES=("g++" "pkg-config" "libgtk-3-dev" "libx11-dev" "libayatana-appindicator3-dev")
 
